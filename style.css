@@ -63,3 +63,42 @@
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience{
+    margin-top: 100px;
+    display: block;
+    float: left;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+.experience h1{
+    font-size: 35px;
+    margin: 10px 0px 15px 2px;
+}
+.web-dev h5{
+    color: orange;
+    margin: 5px 0px 10px;
+    font-size: 15px;
+}
+.web-dev{  
+    width: 35%;
+    display: block;
+    float: left;
+    margin-left: 5%;
+    padding: 20px 40px 100px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
