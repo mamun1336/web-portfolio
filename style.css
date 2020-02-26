@@ -1,9 +1,50 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: tomato;
+    font-family: 'Poppins';
 }
 .half-width{
     width: 40%;
     float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+    margin-top: 25px;
+}
+.top-banner{ 
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.top-banner h1{
+   font-size: 35px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+}
+.top-banner h2{
+    font-size: 30px;
+    padding: 20px 0px 30px;
+}
+.top-banner h4{
+    padding: 60px 0px 15px 0px
+}
+.top-banner .name{
+    color: orange;
+}
+.top-banner button{
+    margin-top: 30px;
+    padding: 5px 25px;
+    background-color: tomato;
+    border-radius: 5px;
+
+}
+.top-banner a{
+    text-decoration: none;
+    
+}
+.half-width img{
+    width: 70%;
+    padding-left: 30%;
+}
+section{
+    height: 500px;
 }
