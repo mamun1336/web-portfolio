@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
